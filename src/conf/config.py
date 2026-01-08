@@ -1,11 +1,11 @@
 from datetime import datetime
 
 class cfg:
-    rawdir = 'data/raw'
-    prodir = 'data/processed'
-    pthdir = 'data/model'
-    logdir = 'data/logs'
-    outdir = 'data/output'
+    rawdir = '../data/raw'
+    prodir = '../data/processed'
+    pthdir = '../data/model'
+    logdir = '../data/logs'
+    outdir = '../data/output'
     timestamp = datetime.today().strftime('%Y%m%d%H%M%S')
     features = ['pm25','pm10_l1']
     target = ['pm25']
