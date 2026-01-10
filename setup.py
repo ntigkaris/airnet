@@ -14,4 +14,5 @@ setup(name='airnet',
       author='Alexandros Ntigkaris',
       url='https://github.com/ntigkaris/airnet',
       packages=['airnet'],
+      python_requires='>=3.9.2',
       install_requires=['numpy','pandas','openpyxl','matplotlib','scikit-learn','torch'])
